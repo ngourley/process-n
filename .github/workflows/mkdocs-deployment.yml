@@ -30,6 +30,10 @@ jobs:
         run: pip install -r requirements.txt 
 #         run: echo Hello, world!
 
+      # Runs a single command using the runners shell
+      - name: Build MkDocs
+        run: mkdocs build 
+
 #       # Runs a set of commands using the runners shell
 #       - name: Run a multi-line script
 #         run: |
