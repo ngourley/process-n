@@ -5,11 +5,14 @@ repo_name: ngourley/process-n
 site_url: https://ngourley.github.io/process-n/
 repo_url: https://github.com/ngourley/process-n
 
-
-
-
 theme:
-  material
+  name: material
+  icon:
+    logo: fontawesome/solid/lines-leaning
 
 
 # https://github.cerner.com/Vulcan/iaas_docs/blob/main/mkdocs.yml
+# https://github.cerner.com/CTS/cts_jenkins_shared_libraries/commit/02187f6bf0eb5b44e4dc20f6aa015bdb90133320
+# https://www.mkdocs.org/user-guide/deploying-your-docs/
+# https://github.cerner.com/CTS/cts_jenkins_shared_libraries/blob/be6694c92b25399d25cee00164f121918271a28c/vars/makeDocs.groovy
+# mermaid for graphs, mix in some draw.io
