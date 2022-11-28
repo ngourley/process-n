@@ -33,4 +33,4 @@ jobs:
         run: mkdocs build
         
       - name: Push to gh-pages Branch
-        run: mkdocs gh-deploy
+        run: mkdocs gh-deploy --force
