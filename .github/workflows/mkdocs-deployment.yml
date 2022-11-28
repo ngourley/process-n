@@ -28,14 +28,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install Dependencies
         run: pip install -r requirements.txt
-#         run: echo Hello, world!
 
-      # Runs a single command using the runners shell
       - name: Build MkDocs
         run: mkdocs build
-
-#       # Runs a set of commands using the runners shell
-#       - name: Run a multi-line script
-#         run: |
-#           echo Add other actions to build,
-#           echo test, and deploy your project.
+        
+      - name: Push to gh-pages Branch
+        run: mkdocs gh-deploy
