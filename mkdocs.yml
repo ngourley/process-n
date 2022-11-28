@@ -1,3 +1,15 @@
 site_name: Process N
+
+repo_name: ngourley/process-n
+
+site_url: https://ngourley.github.io/process-n/
+repo_url: https://github.com/ngourley/process-n
+
+
+
+
 theme:
   material
+
+
+# https://github.cerner.com/Vulcan/iaas_docs/blob/main/mkdocs.yml
